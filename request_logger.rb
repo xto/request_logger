@@ -8,4 +8,12 @@ class RequestLogger < Sinatra::Base
   post /.*/ do
 
   end
+
+  put /.*/ do
+    :logger
+  end
+
+  delete /.*/ do
+
+  end
 end
